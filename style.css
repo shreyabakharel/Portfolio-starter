@@ -1,0 +1,45 @@
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('https://fastly.picsum.photos/id/16/2500/1667.jpg?hmac=uAkZwYc5phCRNFTrV_prJ_0rP0EdwJaZ4ctje2bY7aE');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+    color:aliceblue;
+    outline-color: #000101;
+}
+.hero_desc {
+    font-size: 2rem;
+    color:aliceblue;
+    outline-color: #000101;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(139, 156, 133);
+}
+/* button style*/
+
+.my-button {
+    background-color: #0270a0;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
